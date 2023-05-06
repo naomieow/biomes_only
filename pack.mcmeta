@@ -1,0 +1,54 @@
+{
+    "pack": {
+        "pack_format": 12,
+        "description": "Disables everything but biomes in Incendium"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "incendium",
+                "path": "functions/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "structures/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "advancements/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "loot_tables/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "item_modifiers/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "predicates/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "recipes/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "worldgen/structure/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "worldgen/structure_set/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "worldgen/template_pool/.*"
+            },
+            {
+                "namespace": "incendium",
+                "path": "worldgen/structure/.*"
+            }
+        ]
+    }
+}
